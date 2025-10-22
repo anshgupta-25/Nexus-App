@@ -1,3 +1,60 @@
+# NexusApp (Nexus-Voyager)
+
+This repository (local copy) contains the Nexus-Voyager project — a multi-part application with backend and frontend components, many feature READMEs, and auxiliary scripts to start services and run the project.
+
+This top-level README is a short summary and pointer index. There are many more detailed README and guide files in the repository; see the list below.
+
+## Quick pointers
+
+- Main repo name: `NexusApp` (as requested)
+- Primary branch: `main`
+- Backend code: `backend/`
+- Frontend static site: `frontend/` (contains `index.html`, `script.js`, `styles.css`)
+
+## Important documentation files (selection)
+
+- `README.md` (this file)
+- `README-MODEL-PICKER.md`
+- `README-VIDEO-CALL-DEMO.md`
+- `README.md` (existing project readme files, see root for many variants)
+- `DEPLOYMENT_GUIDE.md`
+- `HOW_TO_RUN.txt`
+- `QUICK_START.txt`
+- `ONE_CLICK_START.md`
+- `NVIDIA_GPU_CONFIG.md`
+- `PRODUCT_SCRAPER_README.md`
+- `TABLE_GALLERY_GUIDE.md`
+
+There are many other guide/notes and feature-readme files in the root — please open them for implementation-specific instructions.
+
+## How to push this exact repository to GitHub (recommended)
+
+1. Create a new repository on GitHub under your account `mu` named `NexusApp`. Leave it empty (do not add a README, license, or .gitignore) to make pushing simpler.
+
+2. On your machine (this repo folder), run:
+
+```bash
+cd "/Users/anshgupta/Ansh/untitled folder/Nexus-Voyager"
+# point origin at your GitHub repo
+git remote set-url origin https://github.com/mu/NexusApp.git
+# push the main branch
+git push -u origin main
+```
+
+If you prefer SSH, replace the URL with `git@github.com:mu/NexusApp.git`.
+
+If you want me to create the GitHub repo and push from this environment, I can attempt that when `gh` is available here and authenticated, or if you provide a Personal Access Token (PAT) locally — but I will not ask you to paste a token here. The simplest flow is: create the empty repo on github.com, then I can push from this environment or you can run the commands above locally.
+
+## Next steps I can take for you
+
+- If you create the repo on GitHub and tell me when it's ready, I'll run the push here and confirm.
+- If you want me to create the repo from here, install and authenticate the GitHub CLI (`gh`) or configure credentials and tell me and I will create and push.
+
+## Contact / support
+If you want changes to this README's content, tell me what to include and I'll update and commit it.
+
+---
+Generated: 22 Oct 2025
 # 🌟 Nexus AI - ChatGPT-Style AI Assistant
 
 ![Nexus AI](https://img.shields.io/badge/Nexus-AI-6366f1?style=for-the-badge)
