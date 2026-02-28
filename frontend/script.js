@@ -1,5 +1,5 @@
 // Configuration
-const API_URL = 'http://localhost:5000';
+const API_URL = 'http://localhost:5001';
 let currentChatId = null;
 let isProcessing = false;
 
@@ -28,13 +28,6 @@ async function sendMessage() {
     const message = input.value.trim();
     
     if (!message || isProcessing) return;
-    
-    // Check authentication
-    if (typeof window.isUserSignedIn === 'function' && !window.isUserSignedIn()) {
-        window.pendingMessage = message;
-        window.showAuthModal();
-        return;
-    }
     
     isProcessing = true;
     
